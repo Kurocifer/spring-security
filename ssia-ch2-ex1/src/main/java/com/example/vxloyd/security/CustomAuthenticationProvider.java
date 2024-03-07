@@ -18,7 +18,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 		String username = authentication.getName();
 		String password = String.valueOf(authentication.getCredentials());
 		
-		if("randomUser".equals(username) && "randomText".equals(password)) {
+		if("randomGuy".equals(username) && "randomText".equals(password)) {
 			return new UsernamePasswordAuthenticationToken(
 					username, password, Arrays.asList());
 		} else {
