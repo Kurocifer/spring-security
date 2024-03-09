@@ -1,5 +1,0 @@
-package com.example.vxloyd.service;
-
-public class InMemoryUserDetailsService implements UserDetailsService {
-
-}
